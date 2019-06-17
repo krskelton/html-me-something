@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Slab', serif;
+}
+h1 {   
+    font-size: 50px;
+    font-family: 'Sofia', cursive;
+    margin-bottom: 5px;
+}
+h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #e21c83;
+}
+p {
+    font-size: 18px;
+}
+.logo {
+    position: absolute;
+    width:40%;
+    max-width: 400px;
+    padding: 20px;
+}
+.logo img {
+    width: 100%;
+}
+.hero img {
+    width: 100%;
+}
+.hero .text{
+    position: absolute;
+    top: 30%;
+    color: #fff;
+    padding: 20px;
+}
+.hero p {
+    font-size: 23px;
+    margin-top:0;
+}
+article {
+    padding: 20px;
+    margin: 0 auto;
+}
+.princess-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.princess{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    padding: 5%;
+}
+.princess img {
+    width: 100%;
+    height:auto;
+}
+
+footer {
+    background: #041f6d;
+    color: #fff;
+    padding: 10px;
+}
